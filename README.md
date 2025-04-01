@@ -66,3 +66,5 @@ For more information on using the Angular CLI, including detailed command refere
 # API-INTEGRATION
 https://www.indiatoday.in/weather/pune-weather-forecast-today
 https://www.indiatoday.in/livetv
+
+![API INTEGRATION](https://github.com/user-attachments/assets/70c32f27-5786-40cb-a869-dedcaabae652)
