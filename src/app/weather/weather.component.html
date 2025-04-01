@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>Weather Information</h1>
+  <input type="text" [(ngModel)]="city" placeholder="Enter City Name">
+  <button (click)="fetchWeather()">Get Weather</button>
+  
+  <div *ngIf="weatherData">
+      <p *ngIf="weatherData.error">{{ weatherData.error }}</p>
+      <p *ngIf="!weatherData.error">
+          Temperature: {{ weatherData.main.temp }}°C <br>
+          Weather: {{ weatherData.weather[0].description }}
+      </p>
+  </div>
+</div>
